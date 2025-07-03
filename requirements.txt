@@ -1,0 +1,3 @@
+foxglove-sdk
+pyserial
+numpy
