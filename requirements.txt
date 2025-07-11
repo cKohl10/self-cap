@@ -1,3 +1,7 @@
 foxglove-sdk
 pyserial
 numpy
+depthai-sdk
+opencv-python
+mamba-ssm
+
