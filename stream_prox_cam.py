@@ -1,12 +1,12 @@
 import foxglove
 import serial
 import time
+import argparse
 from stream_classes import SerialReader, Camera, PDTracker
 import numpy as np
 from foxglove.schemas import Timestamp
 
 if __name__ == "__main__":
-    import argparse
     
     parser = argparse.ArgumentParser(description='Stream proximity sensor data')
     parser.add_argument('-s', '--sensors', type=int, default=3, help='Number of sensors (default: 3)')
